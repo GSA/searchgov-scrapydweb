@@ -39,7 +39,7 @@ setup(
         "Flask==2.2.5",  # May 12, 2021
         "Flask-Compress==1.4.0",  # Jan 5, 2017
         "Flask-SQLAlchemy==2.4.0",  # Apr 25, 2019
-        "idna==2.7",  # Jun 11, 2018
+        "idna==3.7",  # Jun 11, 2018
         "itsdangerous==2.0.0",  # May 12, 2021
         "Jinja2==3.1.4",  # May 12, 2021
         "logparser==0.8.2",
