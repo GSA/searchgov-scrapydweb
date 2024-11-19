@@ -36,17 +36,8 @@ setup(
         "Flask==3.1.0",  # Nov 19, 2024
         "Flask-Compress==1.4.0",  # Jan 5, 2017
         "Flask-SQLAlchemy==2.4.0",  # Apr 25, 2019
-        "idna==3.7",  # Nov 19, 2024
         "logparser==0.8.2",
-        "pexpect==4.7.0",  # Apr 7, 2019
-        "ptyprocess==0.6.0",  # Jun 22, 2018
-        "pytz==2018.9",  # Jan 7, 2019
         "requests>=2.21.0",  # Dec 10, 2018
-        "setuptools>=40.6.3",  # Dec 11, 2018
-        "six==1.16.0",  # May 5, 2021
-        "SQLAlchemy==1.3.24",  # Mar 31, 2021
-        "tzlocal==1.5.1",  # Dec 1, 2017
-        "w3lib==2.0.0",  # Aug 11, 2022
     ],
     entry_points={"console_scripts": {"scrapydweb = scrapydweb.run:main"}},
     classifiers=[
