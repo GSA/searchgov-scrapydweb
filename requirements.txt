@@ -4,7 +4,7 @@ colorama==0.4.0
 Flask==3.1.0
 Flask-Compress==1.4.0
 Flask-SQLAlchemy==2.4.0
-idna==2.7
+idna==3.7
 logparser==0.8.2
 pexpect==4.7.0
 ptyprocess==0.6.0
