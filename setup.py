@@ -35,7 +35,7 @@ setup(
         "colorama==0.4.0",  # Oct 10, 2018
         "Flask==3.1.0",  # Nov 19, 2024
         "Flask-Compress==1.4.0",  # Jan 5, 2017
-        "Flask-SQLAlchemy==2.4.0",  # Apr 25, 2019
+        "Flask-SQLAlchemy==3.1.1",  # Nov 21, 2024
         "logparser==0.8.2",
         "requests>=2.21.0",  # Dec 10, 2018
     ],
