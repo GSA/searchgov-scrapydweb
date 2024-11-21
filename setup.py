@@ -33,7 +33,7 @@ setup(
     install_requires=[
         "APScheduler==3.6.0",  # Mar 18, 2019
         "colorama==0.4.0",  # Oct 10, 2018
-        "Flask==2.0.0",  # Nov 19, 2024
+        "Flask==2.2.5",  # Nov 19, 2024
         "Flask-Compress==1.4.0",  # Jan 5, 2017
         "Flask-SQLAlchemy==2.4.0",  # Nov 21, 2024
         "logparser==0.8.2",
