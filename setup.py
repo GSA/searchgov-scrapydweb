@@ -31,13 +31,13 @@ setup(
     zip_safe=False,
     python_requires=">=3.9",
     install_requires=[
-        "APScheduler",  # Mar 18, 2019
-        "colorama",  # Oct 10, 2018
-        "Flask==2.2.5",  # Nov 19, 2024
-        "Flask-Compress",  # Jan 5, 2017
-        "Flask-SQLAlchemy",  # Nov 21, 2024
-        "logparser",
-        "requests",  # Dec 10, 2018
+        "APScheduler==3.11.0",  # Mar 18, 2019
+        "colorama==0.4.6",  # Oct 10, 2018
+        "Flask==3.1.0",  # Nov 19, 2024
+        "Flask-Compress==1.17.0",  # Jan 5, 2017
+        "Flask-SQLAlchemy==3.1.1",  # Nov 21, 2024
+        "logparser==0.8.2",
+        "requests==2.32.3",  # Dec 10, 2018
     ],
     entry_points={"console_scripts": {"scrapydweb = scrapydweb.run:main"}},
     classifiers=[

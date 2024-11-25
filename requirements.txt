@@ -1,9 +1,9 @@
 pip>=19.1.1
-APScheduler
-colorama
-Flask>=2.2.5
-Flask-Compress
-Flask-SQLAlchemy
-logparser
-requests
+APScheduler==3.11.0
+colorama==0.4.6
+Flask==3.1.0
+Flask-Compress==1.17.0
+Flask-SQLAlchemy==3.1.1
+logparser==0.8.2
+requests==2.32.3
 
