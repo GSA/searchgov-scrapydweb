@@ -265,7 +265,7 @@ class BaseView(View):
         # https://stackoverflow.com/questions/9254891/what-does-content-type-application-json-charset-utf-8-really-mean
         js = json_dumps(obj, sort_keys=sort_keys, indent=indent, ensure_ascii=ensure_ascii)
         if as_response:
-            Content-Type: application/json
+            # Content-Type: application/json
             return Response(js, mimetype='application/json')
         else:
             return js
