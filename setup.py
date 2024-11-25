@@ -41,7 +41,7 @@ setup(
         "itsdangerous==2.0.0",  # May 12, 2021
         "Jinja2==3.0.0",  # May 12, 2021
         "logparser==0.8.2",
-        "MarkupSafe==2.0.0",  # May 12, 2021
+        "MarkupSafe>=2.1.1",  # May 12, 2021
         "pexpect==4.7.0",  # Apr 7, 2019
         "ptyprocess==0.6.0",  # Jun 22, 2018
         "pytz==2018.9",  # Jan 7, 2019
