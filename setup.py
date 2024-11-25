@@ -51,7 +51,7 @@ setup(
         "SQLAlchemy==1.3.24",  # Mar 31, 2021
         "tzlocal==1.5.1",  # Dec 1, 2017
         "w3lib==2.0.0",  # Aug 11, 2022
-        "Werkzeug==2.0.0",  # May 12, 2021
+        "Werkzeug>=2.2.2",  # May 12, 2021
     ],
     entry_points={"console_scripts": {"scrapydweb = scrapydweb.run:main"}},
     classifiers=[
