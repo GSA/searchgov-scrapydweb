@@ -6,7 +6,6 @@ import re
 
 from flask import url_for
 from six.moves.urllib.parse import unquote_plus
-from tzlocal import get_localzone
 
 from tests.utils import cst, req_single_scrapyd, sleep, upload_file_deploy
 
@@ -767,7 +766,7 @@ def test_add_task_button(app, client):
         "start_date: '',",
         "end_date: '',",
 
-        "timezone: '%s'," % str(get_localzone()),
+        "timezone: '%s'," % "Asia/Shanghai",
         "jitter: 0,",
         "misfire_grace_time: 600,",
         "coalesce: 'True',",
@@ -808,7 +807,7 @@ def test_add_task_with_default_values(app, client):
         elif k == 'jitter':
             assert v == 0
         elif k == 'timezone':
-            assert v == str(get_localzone())
+            assert v == "Asia/Shanghai"
         else:
             assert v == '*'
     req_single_scrapyd(app, client, view='tasks.xhr', kws=dict(node=NODE, action='delete', task_id=task_id))
