@@ -49,7 +49,7 @@ setup(
         "six==1.16.0",  # May 5, 2021
         "SQLAlchemy==1.3.24",  # Mar 31, 2021
         "w3lib==2.0.0",  # Aug 11, 2022
-        "Werkzeug==2.0.0",  # May 12, 2021
+        "Werkzeug==3.0.6",  # May 12, 2021
     ],
     entry_points={"console_scripts": {"scrapydweb = scrapydweb.run:main"}},
     classifiers=[

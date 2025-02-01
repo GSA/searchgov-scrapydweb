@@ -17,4 +17,4 @@ setuptools>=40.6.3
 six==1.16.0
 SQLAlchemy==1.3.24
 w3lib==2.0.0
-Werkzeug==2.0.0
+Werkzeug==3.0.6
